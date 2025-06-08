@@ -1,9 +1,7 @@
-import MainCanvas from "./components/MainCanvas";
+import MainFrame from "./pages/MainFrame";
 
 export default function App() {
   return (
-    <div className='w-full h-screen'>
-      <MainCanvas />
-    </div>
+    <MainFrame />
   );
 }
